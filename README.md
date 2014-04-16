@@ -12,14 +12,13 @@ The goal of this exercise is to see your general development flow and design dec
 
 Create an API with the following endpoints:
 
-Markup :
-*GET          /api/v1/users/new(.:format) - > api/v1/users#new
-*GET          /api/v1/users/:id/edit(.:format) - > api/v1/users#edit
-*GET          /api/v1/users/:id(.:format) -> api/v1/users#show
-*PATCH/PUT    /api/v1/users/:id(.:format) -> api/v1/sers#update
-*DELETE       /api/v1/users/:id(.:format)  -> api/v1/sers#destroy
-*GET          /api/v1/users(.:format) -> api/v1/users#index
-*POST         /api/v1/users(.:format) -> api/v1/users#create
+* GET          /api/v1/users/new(.:format) - > api/v1/users#new
+* GET          /api/v1/users/:id/edit(.:format) - > api/v1/users#edit
+* GET          /api/v1/users/:id(.:format) -> api/v1/users#show
+* PATCH/PUT    /api/v1/users/:id(.:format) -> api/v1/sers#update
+* DELETE       /api/v1/users/:id(.:format)  -> api/v1/sers#destroy
+* GET          /api/v1/users(.:format) -> api/v1/users#index
+* POST         /api/v1/users(.:format) -> api/v1/users#create
 
 
 Calls to the above mentioned API endpoints ought to create, update or fetch the User but also its associated models (Profile & Address). Please have a look at the models for the precise current associations.
