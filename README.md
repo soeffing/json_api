@@ -12,6 +12,7 @@ The goal of this exercise is to see your general development flow and design dec
 
 Create an API with the following endpoints:
 
+Markup :
 *GET          /api/v1/users/new(.:format) - > api/v1/users#new
 *GET          /api/v1/users/:id/edit(.:format) - > api/v1/users#edit
 *GET          /api/v1/users/:id(.:format) -> api/v1/users#show
